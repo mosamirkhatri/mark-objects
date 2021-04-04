@@ -1,0 +1,31 @@
+.upload-wrapper__xml-wrapper {
+  margin-top: 20px;
+}
+
+.upload-wrapper__image,
+.upload-wrapper__xml {
+  display: none;
+}
+
+.upload-wrapper__error {
+  color: rgb(240, 38, 38);
+}
+
+.upload-wrapper__error::before {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  background-color: rgb(240, 38, 38);
+  content: "i";
+  font-family: serif;
+  font-style: italic;
+  color: white;
+  margin-right: 0.2rem;
+}
+
+.upload-wrapper__name {
+  font-weight: bold;
+}

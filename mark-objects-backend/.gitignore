@@ -1,0 +1,14 @@
+.vscode/
+
+venv/
+
+bag.jpg
+bag.xml
+new.jpg
+report.csv
+
+__pycache__/
+
+*.pyc
+
+service.txt

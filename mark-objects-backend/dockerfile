@@ -1,0 +1,12 @@
+FROM python:slim-buster
+ENV PYTHONUNBUFFERED=1
+ENV RDS_SERVER=xxx
+ENV RDS_DB=marker
+ENV RDS_USER=xxx
+ENV RDS_PASS=xxx
+RUN mkdir -p /mark_objects
+COPY . /mark_objects
+WORKDIR /mark_objects
+RUN pip install -r requirements.txt
+EXPOSE 5000
+CMD [ "python", "run.py" ]

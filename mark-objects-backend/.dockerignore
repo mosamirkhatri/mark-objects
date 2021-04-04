@@ -1,0 +1,10 @@
+.vscode/
+
+venv/
+
+bag.jpg
+
+bag.xml
+
+docker-compose.yaml
+
